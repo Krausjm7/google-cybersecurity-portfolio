@@ -18,13 +18,15 @@ Welcome to my cybersecurity portfolio! This repository documents the hands-on pr
 
 ### 1. Professional Statement
 
-* **Project Title:** Professional Cybersecurity Statement & Career Focus
-* **Project Introduction:** Two to three sentences that state the career problem/goal you addressed, your background, and your primary technical focus in cybersecurity.
-* **Methodology & Focus Areas:** Description of core competencies, frameworks (e.g., NIST CSF), and tools emphasized in your security practice.
-* **Conclusion:** Summary of career trajectory, goals, and future skills/certifications targeted for expansion.
+Driven by my passion for digital innovation and software systems engineering, I am completing the Google Cybersecurity Professional Certificate to bridge the gap between complex engineering software systems and secure operational design. Building on my background in technical program management, R&D engineering, and software development, I am excited to learn and master the core security methodologies including applying the NIST Cybersecurity Framework, building SecOps integrated software architectures, auditing network architectures, managing access controls in Linux, and leveraging SQL and Python for threat investigations. I am also completing this to prepare for the CompTIA Security+ certification exam.
 
 <p align="center">
-  <img src="assets/images/professional_statement_overview.png" alt="Professional Statement Visual" width="700"/>
+  <a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" rel="noopener noreferrer">
+    <img src="assets/images/professional_statement_overview.png" alt="Google Cybersecurity Professional Certificate" width="700"/>
+  </a>
+</p>
+<p align="center">
+  <sub>👉 <em><a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" rel="noopener noreferrer">Google Cybersecurity Professional Certificate</a></em></sub>
 </p>
 
 ---
