@@ -27,7 +27,7 @@ Driven by my passion for digital innovation and software systems engineering, I 
 </p>
 
 <p align="center">
-  <sub>📜 <em><a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" rel="noopener">Google Cybersecurity Professional Certificate</a></em>🔒</sub>
+  <sub>📜 <em><a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" >Google Cybersecurity Professional Certificate</a></em>🔒</sub>
 </p>
 
 ---
