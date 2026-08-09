@@ -21,10 +21,13 @@ Welcome to my cybersecurity portfolio! This repository documents the hands-on pr
 Driven by my passion for digital innovation and software systems engineering, I am completing the Google Cybersecurity Professional Certificate to bridge the gap between complex engineering software systems and secure operational design. Building on my background in technical program management, R&D engineering, and software development, I am excited to learn and master the core security methodologies including applying the NIST Cybersecurity Framework, building SecOps integrated software architectures, auditing network architectures, managing access controls in Linux, and leveraging SQL and Python for threat investigations. I am also completing this to prepare for the CompTIA Security+ certification exam.
 
 <p align="center">
-  <img src="assets/images/Google Cybersecurity Professional Certificate.png" alt="Google Cybersecurity Professional Certificate" width="700"/>
+  <span style="pointer-events: none;">
+    <img src="assets/images/Google Cybersecurity Professional Certificate.png" alt="Google Cybersecurity Professional Certificate" width="700"/>
+  </span>
 </p>
+
 <p align="center">
-  <sub>📜 <em><a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" rel="noopener noreferrer">Google Cybersecurity Professional Certificate </a></em>🔒</sub>
+  <sub>📜 <em><a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" rel="noopener">Google Cybersecurity Professional Certificate</a></em>🔒</sub>
 </p>
 
 ---
