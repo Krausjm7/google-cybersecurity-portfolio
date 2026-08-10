@@ -26,12 +26,12 @@ Driven by my passion for digital innovation and software systems engineering, I 
   </span>
 </p>
 
-<div align="center" style="line-height: 1.1;">
+<div align="center" style="line-height: -1.0;">
   <sub>📜 <em><a href="https://www.coursera.org/professional-certificates/google-cybersecurity">Google Cybersecurity Professional Certificate</a></em> 🔒</sub><br />
   <sub><em>(Ctrl + click or scroll-click to open link in a new tab)</em></sub>
 </div>
 
-<p align="center"><br /><br /><br /></p>
+<p align="center"><br /></p>
 
 <p align="center">
   <span style="pointer-events: none;">
@@ -39,7 +39,7 @@ Driven by my passion for digital innovation and software systems engineering, I 
   </span>
 </p>
 
-<div align="center" style="line-height: 1.1;">
+<div align="center" style="line-height: -1.0;">
   <sub>📜 <em><a href="https://www.comptia.org/en-us/certifications/security">CompTIA Security+ Certificate</a></em> 🔒</sub><br />
   <sub><em>(Ctrl + click or scroll-click to open link in a new tab)</em></sub>
 </div>
