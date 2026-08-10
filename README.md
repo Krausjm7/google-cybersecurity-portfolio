@@ -48,10 +48,30 @@ Driven by my passion for digital innovation and software systems engineering, I 
 
 ### 2. Conducting a Security Audit
 
-* **Project Title:** Internal Security Audit & Controls Assessment
-* **Project Introduction:** Two to three sentences stating the organizational risks addressed, the internal infrastructure evaluated, and the audit compliance results.
-* **Modeling and Evaluation:** Name and describe the frameworks/controls evaluated (e.g., NIST CSF, CIS Controls) and corresponding compliance risk metrics.
-* **Conclusion:** Recommendations for remediation, risk mitigation strategy, and next steps for continuous monitoring.
+#### 2.1 Project Title
+**Internal Security Audit & Controls Assessment (Botium Toys)**
+
+#### 2.2 Project Introduction
+I conducted an internal security audit for Botium Toys, a growing retail company expanding into international e-commerce. The audit focused on identifying infrastructure vulnerabilities, like weak access controls, missing disaster recovery plans, and inadequate encryption that leave the company exposed to operational disruptions and costly regulatory fines. 
+
+#### 2.3 Modeling and Evaluation
+I evaluated the company's security posture using the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)** and audited their operations against key compliance standards:
+
+* **NIST CSF & Internal Controls:** 
+  * **Access Controls:** Identified significant gaps, including lack of least privilege enforcement, missing Multi-Factor Authentication (MFA), and unstandardized password rules.
+  * **Technical Controls:** Firewalls and antivirus software are active, but internal Access Control Lists (ACLs) and network segmentation are missing.
+  * **Administrative Controls:** Found no formal Disaster Recovery Plan (DRP) or documented incident response protocols.
+* **Compliance Assessment:**
+  * **Payment Card Industry Data Security Standard (PCI DSS) [Non-Compliant]:** Credit card transactions are processed online without strict Cardholder Data Environment (CDE) segmentation or required encryption.
+  * **General Data Protection Regulation (GDPR) [Non-Compliant]:** Handling European Union (E.U.) customer data without proper consent workflows, data protection controls, or classification.
+  * **System and Organization Controls (SOC 1 / SOC 2) [Non-Compliant]:** Inadequate logging and operational controls fail to meet core trust service criteria for security and privacy.
+
+#### 2.4 Conclusion
+* **Key Recommendations:**
+  1. **Enforce Access Controls:** Shift to Role-Based Access Control (RBAC), enforce the principle of least privilege, and mandate MFA across all accounts.
+  2. **Secure Sensitive Data:** Implement end-to-end encryption (Transport Layer Security [TLS] in transit and Advanced Encryption Standard [AES-256] at rest) to align with PCI DSS and GDPR requirements.
+  3. **Ensure Business Continuity:** Build and regularly test formal Disaster Recovery (DRP) and Incident Response plans.
+* **Next Steps:** Deploy centralized Security Information and Event Management (SIEM) log monitoring and establish a routine schedule for recurring security audits and vulnerability scans.
 
 <p align="center">
   <img src="assets/images/security_audit_matrix.png" alt="Security Audit Matrix" width="700"/>
