@@ -31,6 +31,19 @@ Driven by my passion for digital innovation and software systems engineering, I 
   <sub><em>(Ctrl + click or scroll-click to open link in a new tab)</em></sub>
 </div>
 
+<p align="center"><br /><br /><br /></p>
+
+<p align="center">
+  <span style="pointer-events: none;">
+    <img src="assets/images/CompTIA Security.webp" alt="CompTIA Security+ Certificate" width="200"/>
+  </span>
+</p>
+
+<div align="center" style="line-height: 1.1;">
+  <sub>📜 <em><a href="https://www.comptia.org/en-us/certifications/security">CompTIA Security+ Certificate</a></em> 🔒</sub><br />
+  <sub><em>(Ctrl + click or scroll-click to open link in a new tab)</em></sub>
+</div>
+
 ---
 
 ### 2. Conducting a Security Audit
