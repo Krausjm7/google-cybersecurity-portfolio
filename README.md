@@ -5,8 +5,8 @@ Welcome to my cybersecurity portfolio! This repository documents the hands-on pr
 ---
 
 ## Table of Contents
-1. [Professional Statement](#1-professional-statement)
-2. [Conducting a Security Audit](#2-conducting-a-security-audit)
+1. [Professional Statement (Lab 1)](#1-professional-statement)
+2. [Conducting a Security Audit (Lab 2)](#2-conducting-a-security-audit)
 3. [Analyzing Network Structure and Security](#3-analyzing-network-structure-and-security)
 4. [Using Linux Commands to Manage File Permissions](#4-using-linux-commands-to-manage-file-permissions)
 5. [Applying Filters to SQL Queries](#5-applying-filters-to-sql-queries)
@@ -49,10 +49,10 @@ Driven by my passion for digital innovation and software systems engineering, I 
 ### 2. Conducting a Security Audit
 
 #### 2.1 Project Title
-**Internal Security Audit & Controls Assessment (Botium Toys)**
+**Internal Security Audit & Controls Assessment (Botium Toys) - Lab 2**
 
 #### 2.2 Project Introduction
-I conducted an internal security audit for Botium Toys, a retail business expanding into international e-commerce. The audit identified critical security gaps—such as unrestricted data access, missing data backups, unencrypted payment data, and nominal password policies—that expose the company to operational disruptions, asset loss, and severe regulatory non-compliance fines.
+I conducted an internal security audit for Botium Toys, a retail business expanding into international e-commerce. The audit identified critical security gaps such as unrestricted data access, missing data backups, unencrypted payment data, and nominal password policies that expose the company to operational disruptions, asset loss, and regulatory/compliance fines.
 
 #### 2.3 Modeling and Evaluation
 I evaluated the company's security posture using the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)** and audited operations against key industry compliance standards:
@@ -60,31 +60,33 @@ I evaluated the company's security posture using the **National Institute of Sta
 * **NIST CSF & Internal Controls:** * **Access Controls:** Identified significant gaps, including lack of least privilege enforcement, missing Multi-Factor Authentication (MFA), and unbacked nominal password policies.
   * **Technical Controls:** Perimeter firewalls and antivirus software are active, but an Intrusion Detection System (IDS), data encryption, and centralized log management are missing.
   * **Administrative Controls:** Found no formal Disaster Recovery Plan (DRP), data backup schedule, or regular legacy maintenance framework.
-  * **Physical Controls:** On-premises facilities are well-secured with sufficient physical locks, CCTV surveillance, and fire detection/prevention systems.
+  * **Physical Controls:** On-premises facilities are well secured with sufficient physical locks, CCTV surveillance, and fire detection/prevention systems.
 * **Compliance Assessment:**
-  * **Payment Card Industry Data Security Standard (PCI DSS) [Non-Compliant]:** Credit card transactions are processed, transmitted, and stored internally without encryption, access restriction, or secure password policies.
-  * **General Data Protection Regulation (GDPR) [Non-Compliant]:** While a 72-hour breach notification plan exists, E.U. customer PII/SPII is unencrypted and accessible to all staff without asset classification controls.
-  * **System and Organization Controls (SOC 1 / SOC 2) [Non-Compliant]:** User access policies, separation of duties, and privacy controls are absent, despite active data availability and integrity mechanisms.
+  * **Payment Card Industry Data Security Standard (PCI DSS) [Not Compliant]:** Credit card transactions are processed, transmitted, and stored internally without encryption, access restriction, or secure password policies.
+  * **General Data Protection Regulation (GDPR) [Not Compliant]:** While a 72 hour breach notification plan exists, E.U. customer PII/SPII is unencrypted and accessible to all staff without asset classification controls.
+  * **System and Organization Controls (SOC 1 / SOC 2) [Not Compliant]:** User access policies, separation of duties, and privacy controls are absent, despite active data availability and integrity mechanisms.
 
 #### 2.4 Business & Legal Risks Identified
-1. **Regulatory Non-Compliance Fines:** Failing to encrypt cardholder and PII/SPII data violates PCI DSS and GDPR mandates, exposing the business to financial penalties and class-action lawsuit risks.
+1. **Regulatory/Compliance Fines:** Failing to encrypt cardholder and PII/SPII data violates PCI DSS and GDPR mandates, exposing the business to financial penalties and class action lawsuit risks.
 2. **Operational Interruption & Downtime:** The absence of a formalized DRP and data backups leaves the company vulnerable to unrecoverable data loss during security incidents.
 3. **Insider Threat & Unchecked Data Exposure:** Allowing all employees broad access to sensitive records significantly elevates internal data leakage risks.
 4. **Contractual & Audit Vulnerability:** Inadequate access logging and missing SOC 1 / SOC 2 standards limit operational transparency.
 
 #### 2.5 Conclusion & Recommendations
-* **Key Recommendations:**
+**Key Recommendations:**
   1. **Enforce RBAC & Least Privilege:** Restrict user access based on job roles to protect customer PII/SPII and cardholder data.
   2. **Deploy End-to-End Encryption:** Encrypt cardholder data at rest and in transit to align with PCI DSS requirements.
   3. **Establish Backup & DRP Protocols:** Implement routine data backups and draft a formal Disaster Recovery Plan.
   4. **Enforce Central Password Management & MFA:** Standardize complexity rules and require MFA across all accounts.
   5. **Deploy IDS & SIEM Monitoring:** Install an Intrusion Detection System and centralized log aggregation (e.g., Splunk, Microsoft Sentinel) for continuous monitoring.
   6. **Formalize Legacy & Asset Workflows:** Establish regular patching schedules, middleware integrations, and complete a full asset classification inventory under NIST CSF.
-* **Next Steps:** Initiate immediate remediation on high-risk access control and encryption gaps, followed by deploying SIEM logging and routine security audit schedules.
+
+**Next Steps:** 
+Initiate immediate remediation on high risk access control and encryption gaps, followed by deploying SIEM logging and routine security audit schedules.
 
 <p align="center">
   <a href="assets/documents/Final%20-%20Lab%202%20Conducting%20a%20Security%20Audit%20-%20Kraus.pdf">
-    <img src="assets/images/Lab%202%20-%20Thumbnail.png" alt="Lab 2 - Conducting a Security Audit Preview" width="650"/>
+    <img src="assets/images/Lab%202%20-%20Thumbnail.png" alt="Lab 2 - Conducting a Security Audit Preview" width="300"/>
   </a>
 </p>
 
