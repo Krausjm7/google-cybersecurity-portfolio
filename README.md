@@ -1,6 +1,6 @@
 # Google Cybersecurity Professional Certificate Portfolio
 
-Welcome to my cybersecurity portfolio! This repository documents the hands-on projects, security audits, and technical analyses completed as part of the Google Cybersecurity Professional Certificate.
+Welcome to my Cybersecurity Portfolio! This repository documents the hands-on projects, security audits, and technical analyses completed as part of the Google Cybersecurity Professional Certificate.
 
 ---
 
