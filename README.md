@@ -91,7 +91,8 @@ Initiate immediate remediation on high risk access control and encryption gaps, 
 </p>
 
 <p align="center">
-  <sub>📄 <em><a href="assets/documents/Final - Lab 2 Conducting a Security Audit - Kraus.pdf">Click here to view or download the full audit report (PDF)</a></em> 📄</sub>
+  <sub>📄 <em><a href="assets/documents/Final - Lab 2 Conducting a Security Audit - Kraus.pdf">Full Audit Report (PDF)</a></em> 📄</sub><br />
+  <sub><em>(Ctrl + click or scroll-click to open link in a new tab)</em></sub>
 </p>
 
 ---
