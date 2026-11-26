@@ -7,7 +7,7 @@ Welcome to my Cybersecurity Portfolio! This repository documents my hands on pro
 ## Table of Contents
 1. [Professional Statement (Lab 1)](#1-professional-statement)
 2. [Conducting a Security Audit (Lab 2)](#2-conducting-a-security-audit)
-3. [Analyzing Network Structure and Security](#3-analyzing-network-structure-and-security)
+3. [Analyzing Network Structure and Security using NIST CSF (Lab 3)](#3-analyzing-network-structure-and-security)
 4. [Using Linux Commands to Manage File Permissions](#4-using-linux-commands-to-manage-file-permissions)
 5. [Applying Filters to SQL Queries](#5-applying-filters-to-sql-queries)
 6. [Identifying Vulnerabilities for a Small Business](#6-identifying-vulnerabilities-for-a-small-business)
@@ -97,15 +97,22 @@ Initiate immediate remediation on high risk access control and encryption gaps, 
 
 ---
 
-### 3. Analyzing Network Structure and Security
+### 3. Security Incident Evaluation using NIST Cybersecurity Framework (CSF)
 
-* **Project Title:** Network Architecture Analysis & Threat Surface Evaluation
-* **Project Introduction:** Two to three sentences stating the network topology analyzed, traffic flow data reviewed, and security posture findings.
-* **Modeling and Evaluation:** Describe the network models, protocols (TCP/IP, UDP), segmentation strategies, and packet inspection metrics evaluated.
-* **Conclusion:** Recommendations for hardening network perimeters and next steps for implementing intrusion detection.
+* **Project Title:** Using the NIST Cybersecurity Framework (CSF) to respond to a security incident
+* **Project Introduction:** This project analyzes a two-hour Denial of Service (DoS) attack on the internal network of a multimedia company. An external threat actor sent an incoming flood of ICMP ping packets through an unconfigured firewall, causing network services to stop responding until incoming ICMP traffic was blocked, non-critical services were taken offline, and critical services were restored. Using the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, and Recover), the incident report documents the root cause, immediate mitigations, and ongoing security improvements.
+* **Modeling and Evaluation:** Focused on ICMP ping packet traffic flooding the internal network and overwhelming network services, alongside TCP/IP and UDP networking concepts. Addressed taking non-critical network services offline while restoring critical network services during the outage, and separating critical services from non-critical workloads as a protection and recovery improvement. Blocked incoming ICMP packets, adding firewall ICMP rate limiting and source IP address verification for spoofed IP addresses, filtering suspicious ICMP traffic with an IDS/IPS, and using network monitoring software, SIEM alerting, service health tracking, and user account/access monitoring.
+* **Conclusion:** Securing the network against future ICMP flood DoS attacks involves maintaining properly configured firewall rules with ICMP rate limiting and source IP verification, keeping critical services prioritized and configurations/backups ready for recovery, and updating security procedures and staff awareness. Next steps for intrusion detection include using network monitoring software, IDS/IPS filtering, and SIEM alerting to spot abnormal traffic and unauthorized account activity early, while refining response and recovery plans for future incidents
 
 <p align="center">
-  <img src="assets/images/network_structure_diagram.png" alt="Network Diagram" width="700"/>
+  <a href="assets/documents/Lab3_NIST_CSF_Incident_Report_Analysis.pdf">
+    <img src="assets/images/Incident%20Report%20Analysis%20using%20NIST%20CSF.png" alt="Incident Report Analysis using NIST CSF Preview" width="300"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub>📄 <em><a href="assets/documents/Lab3_NIST_CSF_Incident_Report_Analysis.pdf">Full Incident Report Analysis (PDF)</a></em> 📄</sub><br />
+  <sub><em>(Ctrl + click or scroll-click to open link in a new tab)</em></sub>
 </p>
 
 ---
