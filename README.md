@@ -7,7 +7,7 @@ Welcome to my Cybersecurity Portfolio! This repository documents my hands on pro
 ## Table of Contents
 1. [Professional Statement (Lab 1)](#1-professional-statement)
 2. [Conducting a Security Audit (Lab 2)](#2-conducting-a-security-audit)
-3. [Analyzing Network Structure and Security using NIST CSF (Lab 3)](#3-analyzing-network-structure-and-security)
+3. [Analyzing Security Incident using NIST CSF (Lab 3)](#3-analyzing-network-structure-and-security)
 4. [Using Linux Commands to Manage File Permissions](#4-using-linux-commands-to-manage-file-permissions)
 5. [Applying Filters to SQL Queries](#5-applying-filters-to-sql-queries)
 6. [Identifying Vulnerabilities for a Small Business](#6-identifying-vulnerabilities-for-a-small-business)
