@@ -7,7 +7,7 @@ Welcome to my Cybersecurity Portfolio! This repository documents my hands on pro
 ## Table of Contents
 1. [Professional Statement (Lab 1)](#1-professional-statement)
 2. [Conducting a Security Audit (Lab 2)](#2-conducting-a-security-audit)
-3. [Analyzing Security Incident using NIST CSF (Lab 3)](#3-analyzing-network-structure-and-security)
+3. [Security Incident Evaluation using NIST Cybersecurity Framework (CSF) (Lab 3)](#3-security-incident-evaluation-using-nist-cybersecurity-framework-csf)
 4. [Using Linux Commands to Manage File Permissions](#4-using-linux-commands-to-manage-file-permissions)
 5. [Applying Filters to SQL Queries](#5-applying-filters-to-sql-queries)
 6. [Identifying Vulnerabilities for a Small Business](#6-identifying-vulnerabilities-for-a-small-business)
@@ -99,10 +99,32 @@ Initiate immediate remediation on high risk access control and encryption gaps, 
 
 ### 3. Security Incident Evaluation using NIST Cybersecurity Framework (CSF)
 
-* **Project Title:** Using the NIST Cybersecurity Framework (CSF) to respond to a security incident
-* **Project Introduction:** This project analyzes a two-hour Denial of Service (DoS) attack on the internal network of a multimedia company. An external threat actor sent an incoming flood of ICMP ping packets through an unconfigured firewall, causing network services to stop responding until incoming ICMP traffic was blocked, non-critical services were taken offline, and critical services were restored. Using the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, and Recover), the incident report documents the root cause, immediate mitigations, and ongoing security improvements.
-* **Modeling and Evaluation:** Focused on ICMP ping packet traffic flooding the internal network and overwhelming network services, alongside TCP/IP and UDP networking concepts. Addressed taking non-critical network services offline while restoring critical network services during the outage, and separating critical services from non-critical workloads as a protection and recovery improvement. Blocked incoming ICMP packets, adding firewall ICMP rate limiting and source IP address verification for spoofed IP addresses, filtering suspicious ICMP traffic with an IDS/IPS, and using network monitoring software, SIEM alerting, service health tracking, and user account/access monitoring.
-* **Conclusion:** Securing the network against future ICMP flood DoS attacks involves maintaining properly configured firewall rules with ICMP rate limiting and source IP verification, keeping critical services prioritized and configurations/backups ready for recovery, and updating security procedures and staff awareness. Next steps for intrusion detection include using network monitoring software, IDS/IPS filtering, and SIEM alerting to spot abnormal traffic and unauthorized account activity early, while refining response and recovery plans for future incidents
+#### 3.1 Project Title
+Using the NIST Cybersecurity Framework (CSF) to respond to a security incident - Lab 3
+
+#### 3.2 Project Introduction
+This project analyzes a two-hour Denial of Service (DoS) attack on the internal network of a multimedia company. An external threat actor sent an incoming flood of ICMP ping packets through an unconfigured firewall, causing network services to stop responding until incoming ICMP traffic was blocked, non-critical services were taken offline, and critical services were restored. Using the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, and Recover), the incident report documents the root cause, immediate mitigations, and ongoing security improvements.
+
+#### 3.3 Modeling and Evaluation
+I evaluated the incident and network security controls across TCP/IP, UDP, and ICMP networking concepts using the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF):
+- **Traffic & Protocol Analysis:** Focused on ICMP ping packet traffic flooding the internal network and overwhelming network services, alongside TCP/IP and UDP networking concepts.
+- **Service Segmentation & Prioritization:** Advised taking non-critical network services offline while restoring critical network services during the outage, and separating critical services from non-critical workloads as a protection and recovery improvement.
+- **Perimeter Filtering & Monitoring Controls:** Blocked incoming ICMP packets, added firewall ICMP rate limiting and source IP address verification for spoofed IP addresses, filtered suspicious ICMP traffic with an IDS/IPS, and used network monitoring software, SIEM alerting, service health tracking, and user account/access monitoring.
+
+#### 3.4 Operational & Security Risks Identified
+1. **Service Availability & Outage Impact:** An incoming ICMP ping flood overwhelmed the internal network, causing network services to stop responding for two hours until mitigated.
+2. **Firewall Misconfiguration & IP Spoofing:** An unconfigured firewall allowed external ICMP packets to flood the network without rate limiting or source IP address verification.
+3. **Lack of Traffic & Account Visibility:** Without continuous network monitoring, IDS/IPS packet filtering, SIEM alerting, and account/access tracking, abnormal ICMP traffic and suspicious activity risk delayed detection.
+4. **Recovery & Service Restoration Delays:** Without prioritized service separation, clean configuration backups, and documented response/recovery procedures, restoring critical operations takes longer during availability incidents.
+
+#### 3.5 Conclusion & Recommendations
+**Key Recommendations:**
+1. **Maintain Hardened Firewall Rules:** Keep properly configured firewall rules active with ICMP rate limiting and source IP address verification to block spoofed or excessive ping traffic.
+2. **Prioritize Critical Services & Configurations:** Keep critical services separated and prioritized over non-critical workloads, with clean configurations and backups ready for recovery.
+3. **Update Security Procedures & Awareness:** Maintain documented incident response and recovery procedures and conduct ongoing staff security awareness training.
+4. **Leverage Continuous Monitoring & Detection:** Use network monitoring software, IDS/IPS filtering, and SIEM alerting to detect abnormal traffic patterns and unauthorized account activity early.
+
+**Next Steps:** Continue using network monitoring software, IDS/IPS filtering, and SIEM alerting to spot abnormal traffic and unauthorized account activity early, while refining response and recovery plans for future incidents.
 
 <p align="center">
   <a href="assets/documents/Lab3_NIST_CSF_Incident_Report_Analysis.pdf">
